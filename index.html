@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Retro Road Rush</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="game-shell">
+      <h1>RETRO ROAD RUSH</h1>
+      <section class="hud">
+        <p>Score: <span id="score">0</span></p>
+        <p>Best: <span id="best">0</span></p>
+        <p>Speed: <span id="speed">0</span></p>
+      </section>
+      <canvas id="gameCanvas" width="360" height="640" aria-label="Retro racing game"></canvas>
+      <section class="controls">
+        <p>Move: ← → or A D</p>
+        <p>Boost: ↑ or W</p>
+        <p>Brake: ↓ or S</p>
+        <p>Start / Restart: Space or Enter</p>
+      </section>
+    </main>
+    <script src="game.js"></script>
+  </body>
+</html>
