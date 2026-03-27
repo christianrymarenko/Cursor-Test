@@ -6,6 +6,7 @@ A browser-based old-school arcade racing game with neon visuals and fast, lane-b
 
 - Retro arcade look with neon HUD and pixel-style rendering
 - Keyboard controls for steering, boosting, and braking
+- Procedural retro audio (engine hum, chiptune-style background loop, pass + crash SFX)
 - Dynamic enemy traffic spawning and collision-based game-over logic
 - Score + best score tracking (best score saved in localStorage)
 - Instant restart flow for repeat runs
@@ -16,6 +17,7 @@ A browser-based old-school arcade racing game with neon visuals and fast, lane-b
 - Boost: `Arrow Up` or `W`
 - Brake: `Arrow Down` or `S`
 - Start / Restart: `Space` or `Enter`
+- Toggle sound: `M` or the `Mute/Unmute` button
 
 ## Run locally
 

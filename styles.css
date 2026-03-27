@@ -71,6 +71,21 @@ h1 {
   margin: 0;
 }
 
+.controls button {
+  padding: 0.24rem 0.55rem;
+  border: 1px solid #5ff1ff;
+  border-radius: 4px;
+  background: #111a34;
+  color: #e6eeff;
+  font: inherit;
+  cursor: pointer;
+  box-shadow: 0 0 8px rgba(95, 241, 255, 0.25);
+}
+
+.controls button:hover {
+  background: #1a2b56;
+}
+
 .controls {
   margin-top: 0.65rem;
   opacity: 0.92;
